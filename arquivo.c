@@ -11,7 +11,7 @@ typedef struct {
 typedef struct {
     int usuarioID;
     char usuarioNome[100];
-    int videosFavoritos[10]; // IDs dos vídeos favoritos
+    int videosFavoritos[10];
     int totalFavoritos;
 } Cliente;
 
